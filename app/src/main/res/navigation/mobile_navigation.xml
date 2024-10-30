@@ -32,5 +32,4 @@
         android:name="com.example.dma_lab2.TabbedActivityAk"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-        />
 </navigation>

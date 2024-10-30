@@ -20,6 +20,7 @@ class HomeFrag: Fragment() {
         val button = view.findViewById<Button>(R.id.button)
         button.setOnClickListener{
             val intent = Intent(activity,MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
             startActivity(intent)
         }
         return view
